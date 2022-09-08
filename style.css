@@ -1,0 +1,80 @@
+/* css per tutta la pagina(marigne-colore-non somma bordo)*/
+*{
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+/* css per lo sfondo di tutta la pagina */
+body{
+    background-image:  url(background.jpg);
+    background-position: top;
+    background-size: cover;
+}
+/* grandequadrato che racchiude elemnti */
+.grandequadrato{
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 850px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+/* allineamento centrale parte superiore */
+header{
+  text-align: center;
+}
+/* css per sistemare l'immagine */
+img{
+  width: 350px;
+  margin-top: 100px;
+}
+/* cambio colore titolo */
+h1{
+  color: 	#00FF00;
+}
+/* css per la parte di navigazione con i button */
+nav{
+  margin: auto;
+  width: 1000px;
+  background-color: #00FF00;
+  padding: 10px ;
+  text-align: center;
+}
+/* css specifico per i diversi input per non farli combaciare */
+input[type="button"]{
+  color: black;
+}
+/* css per tutto il contenuto centrale della pagina */
+main{
+  margin: auto;
+  width: 1000px;
+}
+/* css specifico per i diversi input per non farli combaciare */
+input[type="checkbox"]{
+  margin-top: 30px;
+}
+/* vari css per i diversi tipi di ricariche, i diversi stili di rettangoli */
+.ricarica1{
+  border-radius: 10px;
+  height: 25px;
+  width: 350px;
+  margin-right: auto;
+  background-color: yellow;
+}
+/* vari css per i diversi tipi di ricariche, i diversi stili di rettangoli */
+.ricarica2{
+  border-radius: 10px;
+  height: 25px;
+  width: 700px;
+  margin-right: auto;
+  background-color: green;
+}
+/* vari css per i diversi tipi di ricariche, i diversi stili di rettangoli */
+.ricarica3{
+  border-radius: 10px;
+  height: 25px;
+  width: 175px;
+  margin-right: auto;
+  background-color: red;
+}
